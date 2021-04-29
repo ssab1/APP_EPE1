@@ -1,0 +1,239 @@
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+      
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #aad8d3;
+  }
+ body{
+      background-color: #70b3af;
+  }
+
+  /*estilo pagina 2*/
+  .imgpag2{
+    height: 360px;
+    float: left;
+    margin-right: 19px;
+    padding: 2px;
+    max-width: 100%;
+    display: inline;
+  }
+  .contenedor{
+    margin-top: 5px;
+    margin-left: 130px;
+    padding: 2% ;
+  }
+  /*tabla*/
+  #customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 20%;
+  }
+  
+  #customers td, #customers th {
+    border: 2px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+  }
+
+
+
+  /* estilo pagina 3*/
+
+  .imgpag3{
+    margin-top: 27px;
+    height: 390px;
+    float: right;
+    padding: 5px;
+    max-width: 100%;
+    display: inline;
+  }
+  .contenedor3{
+    margin-top: 50px;
+    position: relative;
+    max-width: 600px;
+    padding: 50px;
+    background: rgba(255,255,255,.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+  .contenedor3 p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #044463;
+  }
+   /* estilo pagina 4*/
+  .divtipag4{
+    text-align: right;
+    margin-right: 92px;
+  }
+  
+  /*otro*/
+  div#imagen {
+    width: 300px;
+    height: 400px;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url("../img/tarjetared.jpg");
+    margin: 10px ;
+  }
+  
+  div#info {
+    position:absolute;
+    overflow:hidden;
+    width: 300px;
+    height: 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    opacity:0;
+    transition: opacity 0.3s;
+  }
+  
+  div#imagen:hover div#info {
+    opacity:1;
+  }
+  
+  p#headline {
+    position: absolute;
+    font-size: 1.5rem;
+    margin-left: -75px;
+    margin-top: 15px;
+    transition: margin-left 0.3s;
+  }
+  
+  div#imagen:hover p#headline {
+    margin-left: 115px;
+  }
+  
+  p#descripcion {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 200px;
+    transition: margin-top 0.4s;
+  }
+  
+  div#imagen:hover p#descripcion {
+    margin-top: 75px;
+  }
+  /*imagen2 hover*/
+div#imagen2 {
+  width: 300px;
+  height: 400px;
+  background-size: cover;/*sólo para ejemplo*/
+  background-image: url("../img/procesador.jpg");
+  
+  margin: 10px ;
+}
+div#imagen2:hover div#info {
+  opacity:1;
+}
+div#imagen2:hover p#headline {
+  margin-left: 115px;
+}
+div#imagen2:hover p#descripcion {
+  margin-top: 75px;
+}
+  /*imagen3 hover*/
+  div#imagen3 {
+    width: 300px;
+    height: 400px;
+    background-size: cover;/*sólo para ejemplo*/
+    background-image: url("../img/ram.jpg");
+    
+    margin: 10px ;
+  }
+  div#imagen3:hover div#info {
+    opacity:1;
+  }
+  div#imagen3:hover p#headline {
+    margin-left: 115px;
+  }
+  div#imagen3:hover p#descripcion {
+    margin-top: 75px;
+  }
+    /*imagen4 hover*/
+div#imagen4 {
+  width: 300px;
+  height: 400px;
+  background-size: cover;/*sólo para ejemplo*/
+  background-image: url("../img/ssd.jpg");
+  
+  margin: 10px ;
+}
+div#imagen4:hover div#info {
+  opacity:1;
+}
+div#imagen4:hover p#headline {
+  margin-left: 115px;
+}
+div#imagen4:hover p#descripcion {
+  margin-top: 75px;
+}
+
+/*estilo pagina 5*/
+.contenedorpag5{
+  max-width: center;
+  
+  margin: 5%;
+  padding: 50px;
+  background: rgba(255,255,255,.2);
+  box-shadow: 0 5px 15px rgba(0,0,0,.5);
+}
+.contenedorpag5 p{
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #044463;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+.imgtelepag5{
+  float: left;
+  margin-right: 9px;
+}
+
+

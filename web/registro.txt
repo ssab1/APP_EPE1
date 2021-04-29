@@ -1,0 +1,10 @@
+nombre:Bastian<br>
+               apellido:Santibanez<br>
+               rut:204017875<br>
+               Mensaje:EPE1 <br><hr align="left" style="width:40%;">nombre:Diego<br>
+               apellido:Parada<br>
+               rut:202020202<br>
+               Mensaje:EPE1 <br><hr align="left" style="width:40%;">nombre:Bruny<br>
+               apellido:Vidal<br>
+               rut:202002003<br>
+               Mensaje:EPE1 <br><hr align="left" style="width:40%;">
