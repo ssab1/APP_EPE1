@@ -172,7 +172,7 @@ function validar(pedido, respuesta) {
       });
     } else {
       respuesta.writeHead(302, {
-        'Location': 'sesion.html'
+        'Location': 'sesion'
       });
     }
     respuesta.end();
