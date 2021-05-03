@@ -7,4 +7,7 @@ nombre:Bastian<br>
                Mensaje:EPE1 <br><hr align="left" style="width:40%;">nombre:Bruny<br>
                apellido:Vidal<br>
                rut:202002003<br>
-               Mensaje:EPE1 <br><hr align="left" style="width:40%;">
+               Mensaje:EPE1 <br><hr align="left" style="width:40%;">nombre:dfvdfbv<br>
+               apellido:dfvdfv<br>
+               rut:dfvdfv<br>
+               Mensaje:dfvdfv<br><hr align="left" style="width:40%;">

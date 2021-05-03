@@ -113,7 +113,7 @@ function grabarComentarios(pedido, respuesta) {
       </head>
         <body>
         <ul>
-        <li><a href="index">Home</a></li>
+        <li><a href="index.html">Home</a></li>
         <li><a href="marcas">Marcas</a></li>
         <li><a href="importancia_hardware">Importancia</a></li>
         <li><a href="imagenes">Imagenes</a></li>
@@ -150,7 +150,7 @@ function grabarEnArchivo(formulario) {
 function leerComentarios(respuesta) {
   fs.readFile('web/registro.txt', (error, datos) => {
     respuesta.writeHead(200, { 'Content-Type': 'text/html' });
-    respuesta.write('<!doctype html><html><head><link rel="shortcut icon" href="img/Bytes.png" type="image/x-icon"><link rel="stylesheet" href="css/style.css"><title>Smart Bytes</title></head><body><ul><li><a href="index">Home</a></li><li><a href="marcas">Marcas</a></li><li><a href="importancia_hardware">Importancia</a></li><li><a href="imagenes">Imagenes</a></li><li><a href="comentario">Comentario</a></li><li><a href="rrss">Redes Sociales</a></li></ul><h1>Datos Guardados</h1><br>');
+    respuesta.write('<!doctype html><html><head><link rel="shortcut icon" href="img/Bytes.png" type="image/x-icon"><link rel="stylesheet" href="css/style.css"><title>Smart Bytes</title></head><body><ul><li><a href="index.html">Home</a></li><li><a href="marcas">Marcas</a></li><li><a href="importancia_hardware">Importancia</a></li><li><a href="imagenes">Imagenes</a></li><li><a href="comentario">Comentario</a></li><li><a href="rrss">Redes Sociales</a></li></ul><h1>Datos Guardados</h1><br>');
     respuesta.write(datos);
     respuesta.write('</body></html>');
     respuesta.end();
@@ -197,7 +197,7 @@ function index(pedido, respuesta) {
       <!----Menu de opciones-->
       <header>
           <ul>
-              <li><a href="index">Home</a></li>
+              <li><a href="index.html">Home</a></li>
               <li><a href="marcas">Marcas</a></li>
               <li><a href="importancia_hardware">Importancia</a></li>
               <li><a href="imagenes">Imagenes</a></li>
@@ -248,7 +248,7 @@ function imagenes(pedido, respuesta) {
     <!----Menu de opciones-->
     <header>
       <ul>
-      <li><a href="index">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="marcas">Marcas</a></li>
       <li><a href="importancia_hardware">Importancia</a></li>
       <li><a href="imagenes">Imagenes</a></li>
@@ -330,7 +330,7 @@ function importancia_hardware(pedido, respuesta) {
       <!----Menu de opciones-->
       <header>
           <ul>
-          <li><a href="index">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="marcas">Marcas</a></li>
           <li><a href="importancia_hardware">Importancia</a></li>
           <li><a href="imagenes">Imagenes</a></li>
@@ -377,7 +377,7 @@ function comentario(pedido, respuesta) {
       <!----Menu de opciones-->
       <header>
           <ul>
-          <li><a href="index">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="marcas">Marcas</a></li>
           <li><a href="importancia_hardware">Importancia</a></li>
           <li><a href="imagenes">Imagenes</a></li>
@@ -448,7 +448,7 @@ function marcas(pedido, respuesta) {
     <!----Menu de opciones-->
     <header>
       <ul>
-      <li><a href="index">Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="marcas">Marcas</a></li>
       <li><a href="importancia_hardware">Importancia</a></li>
       <li><a href="imagenes">Imagenes</a></li>
@@ -518,7 +518,7 @@ function rrss(pedido, respuesta) {
       <!----Menu de opciones-->
       <header>
           <ul>
-          <li><a href="index">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="marcas">Marcas</a></li>
           <li><a href="importancia_hardware">Importancia</a></li>
           <li><a href="imagenes">Imagenes</a></li>
@@ -574,7 +574,7 @@ function sesion(pedido, respuesta) {
       <!----Menu de opciones-->
       <header>
           <ul>
-          <li><a href="index">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="marcas">Marcas</a></li>
           <li><a href="importancia_hardware">Importancia</a></li>
           <li><a href="imagenes">Imagenes</a></li>
