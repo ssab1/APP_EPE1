@@ -35,4 +35,11 @@ EPE1 Programación de aplicaciones móviles
  
 ![sesion](https://user-images.githubusercontent.com/51329760/116592378-ef462800-a8ed-11eb-9d08-c8631624eb90.PNG)
 
+#
+
+VISTA REGISTROS
+
+![vista_registro](https://user-images.githubusercontent.com/51329760/116606541-e14cd300-a8fe-11eb-8f8d-bfa2c7b93000.PNG)
+
+
 
